@@ -1,3 +1,5 @@
+// This bot is purposely using v12 and not using Discord's new features like buttons, menus, and slash commands, because Discord has been purposely forcing these features and we feel like they most of them are unneccessary. Because of that, this bot cannot cross 100 servers, do not fork and use for production, not a good idea.
+
 const Discord = require('discord.js')
 const client = new Discord.Client()
 const cooldown = new Set();
