@@ -6,6 +6,7 @@ client.on('ready', () => {
 	client.user.setActivity('closely at ,help', {
 		type: "WATCHING"
 	})
+	console.log('[Event] BloBan is ready to serve on Discord.')
 })
 
 
